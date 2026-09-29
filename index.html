@@ -3,131 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Sky View Construction - Architecture, Interior Design, 3D Elevation and Construction services in Gorakhpur.">
-<title>Sky View Construction | Architecture & Interior Design</title>
+<meta name="description" content="Sky View Construction - Architecture, Interior Design, 3D Elevation and Construction in Gorakhpur.">
+<title>Sky View Construction | Architecture • Interior • Construction</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--dark:#111214;--gold:#c89b5b;--cream:#f5f1e9;--white:#fff;--muted:#777;--line:#e7e0d5}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{font-family:"DM Sans",sans-serif;color:var(--dark);background:#fff;line-height:1.6}
-a{text-decoration:none;color:inherit}.container{width:min(1140px,92%);margin:auto}
-header{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(17,18,20,.94);backdrop-filter:blur(12px);color:#fff}
-.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:700;letter-spacing:1px;font-size:19px}.logo span{color:var(--gold)}
-nav{display:flex;gap:27px;font-size:14px}nav a{opacity:.9}nav a:hover{color:var(--gold)}
-.menu{display:none;font-size:26px;cursor:pointer}
-.hero{min-height:92vh;padding-top:76px;display:grid;place-items:center;background:
-linear-gradient(90deg,rgba(10,10,10,.83),rgba(10,10,10,.38)),
-url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85") center/cover;color:#fff}
-.hero-content{max-width:760px;padding:90px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:3px;font-size:13px;font-weight:700;margin-bottom:18px}
-h1{font-family:"Playfair Display",serif;font-size:clamp(44px,7vw,78px);line-height:1.02;margin-bottom:22px}
-.hero p{font-size:18px;max-width:620px;color:#eee;margin-bottom:32px}.buttons{display:flex;gap:14px;flex-wrap:wrap}
-.btn{display:inline-block;padding:13px 23px;border-radius:3px;font-weight:700;font-size:14px}.primary{background:var(--gold);color:#111}.outline{border:1px solid #fff;color:#fff}
-section{padding:92px 0}.section-head{max-width:700px;margin-bottom:42px}.section-head h2{font-family:"Playfair Display",serif;font-size:43px;line-height:1.1;margin:7px 0 13px}.section-head p{color:#666}
-.about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
-.about-img{min-height:500px;background:url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85") center/cover}
-.about-copy h3{font-family:"Playfair Display",serif;font-size:30px;margin-bottom:15px}.about-copy p{color:#666;margin-bottom:18px}
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:30px;border:1px solid var(--line);min-height:205px;transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:0 12px 30px #0000000d}.num{color:var(--gold);font-weight:700;font-size:13px}.card h3{margin:13px 0 8px;font-size:20px}.card p{color:#777;font-size:14px}
-.projects{background:#111214;color:#fff}.projects .section-head p{color:#bbb}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.project{height:310px;position:relative;overflow:hidden;background-size:cover;background-position:center}.project:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,#000c)}.project div{position:absolute;bottom:20px;left:20px;z-index:2}.project h3{font-size:19px}.project p{font-size:13px;color:#ddd}
-.process{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.step{border-top:2px solid var(--gold);padding-top:18px}.step b{font-size:13px;color:var(--gold)}.step h3{margin:8px 0}.step p{font-size:14px;color:#777}
-.contact{background:var(--cream)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.contact-box{background:#fff;padding:30px}.contact-row{padding:15px 0;border-bottom:1px solid var(--line)}.contact-row small{display:block;color:#888;text-transform:uppercase;letter-spacing:1px;font-size:11px}.contact-row a{font-weight:600}
-footer{background:#111214;color:#aaa;padding:28px 0;font-size:13px}.footer-flex{display:flex;justify-content:space-between;gap:20px}
-.float{position:fixed;right:20px;bottom:20px;background:#168c46;color:#fff;padding:14px 18px;border-radius:50px;font-weight:700;z-index:30;box-shadow:0 8px 25px #0004}
-@media(max-width:800px){nav{display:none}.menu{display:block}.services-grid,.project-grid{grid-template-columns:1fr 1fr}.about-grid,.contact-grid{grid-template-columns:1fr}.about-img{min-height:330px}.process{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){section{padding:70px 0}.services-grid,.project-grid,.process{grid-template-columns:1fr}.hero p{font-size:16px}.section-head h2{font-size:35px}.footer-flex{flex-direction:column}}
+:root{--ink:#121315;--gold:#c79a58;--cream:#f6f2eb;--soft:#fbfaf7;--muted:#747474;--line:#e7dfd2}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:"DM Sans",sans-serif;color:var(--ink);line-height:1.65;background:#fff}a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
+header{position:fixed;z-index:50;top:0;left:0;right:0;background:#111214eF;color:#fff;backdrop-filter:blur(14px)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:700;letter-spacing:1.1px;font-size:18px}.brand b{color:var(--gold)}
+nav{display:flex;gap:24px;font-size:13px}nav a:hover{color:var(--gold)}.menu{display:none;font-size:27px}
+.hero{min-height:94vh;padding-top:78px;color:#fff;display:flex;align-items:center;background:linear-gradient(90deg,#090a0bd9,#090a0b55),url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=90") center/cover}
+.hero-copy{max-width:800px;padding:80px 0}.tag{color:var(--gold);font-size:12px;letter-spacing:3px;font-weight:700;text-transform:uppercase}.hero h1{font-family:"Playfair Display",serif;font-size:clamp(46px,7vw,82px);line-height:1.02;margin:16px 0 24px}.hero p{max-width:650px;font-size:18px;color:#eee;margin-bottom:30px}.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:13px 22px;font-size:13px;font-weight:700;border-radius:3px}.gold{background:var(--gold);color:#111}.light{border:1px solid #fff;color:#fff}.dark{background:#111;color:#fff}
+section{padding:96px 0}.head{max-width:720px;margin-bottom:42px}.head h2{font:600 43px/1.1 "Playfair Display",serif;margin:8px 0 13px}.head p{color:var(--muted)}
+.intro{background:var(--cream)}.intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.intro-img{height:500px;background:url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1100&q=90") center/cover}.intro-text h3{font:600 32px "Playfair Display",serif;margin:8px 0 15px}.intro-text p{color:#666;margin-bottom:15px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:35px}.stat{padding:24px 10px}.stat strong{display:block;font:600 32px "Playfair Display",serif;color:var(--gold)}.stat span{font-size:12px;color:#777}
+.services{background:#fff}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{padding:30px;border:1px solid var(--line);min-height:215px;transition:.25s}.service:hover{transform:translateY(-5px);box-shadow:0 15px 35px #0000000c}.service .n{color:var(--gold);font-weight:700;font-size:12px}.service h3{font-size:20px;margin:12px 0 8px}.service p{color:#777;font-size:14px}
+.portfolio{background:#111214;color:#fff}.portfolio .head p{color:#bbb}.gallery{display:grid;grid-template-columns:1.25fr .75fr .75fr;grid-template-rows:250px 250px;gap:14px}.work{position:relative;overflow:hidden;background:center/cover}.work:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,#000c)}.work.big{grid-row:1/3}.work div{position:absolute;left:20px;bottom:18px;z-index:2}.work h3{font-size:18px}.work p{font-size:12px;color:#ddd}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.step{border-top:2px solid var(--gold);padding-top:18px}.step b{font-size:11px;color:var(--gold);letter-spacing:1px}.step h3{margin:7px 0}.step p{font-size:13px;color:#777}
+.team{background:var(--cream)}.team-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.person{background:#fff;padding:28px;border:1px solid var(--line)}.person h3{font:600 25px "Playfair Display",serif}.person span{font-size:12px;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:1px}.person p{color:#777;font-size:14px;margin-top:10px}
+.contact{background:var(--soft)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{background:#fff;border:1px solid var(--line);padding:32px}.row{padding:14px 0;border-bottom:1px solid var(--line)}.row small{display:block;color:#999;text-transform:uppercase;letter-spacing:1px;font-size:10px}.row a{font-weight:600}
+footer{background:#111214;color:#aaa;padding:30px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px}.wa{position:fixed;z-index:60;right:20px;bottom:20px;background:#20c76b;color:#fff;padding:13px 19px;border-radius:50px;font-weight:700;box-shadow:0 8px 25px #0004}
+@media(max-width:850px){nav{display:none}.menu{display:block}.grid3,.process-grid{grid-template-columns:1fr 1fr}.intro-grid,.contact-grid{grid-template-columns:1fr}.intro-img{height:360px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:260px 200px 200px}.work.big{grid-row:auto}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){section{padding:70px 0}.grid3,.process-grid,.team-grid{grid-template-columns:1fr}.hero h1{font-size:48px}.hero p{font-size:16px}.head h2{font-size:35px}.gallery{display:block}.work{height:250px;margin-bottom:12px}.foot{flex-direction:column}}
 </style>
 </head>
 <body>
-<header>
-<div class="container nav">
-<a class="logo" href="#home">SKY VIEW <span>CONSTRUCTION</span></a>
-<nav><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
+<header><div class="wrap nav">
+<a class="brand" href="#home">SKY VIEW <b>CONSTRUCTION</b></a>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Projects</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
 <div class="menu" onclick="document.querySelector('nav').style.display=document.querySelector('nav').style.display==='flex'?'none':'flex'">☰</div>
-</div>
-</header>
+</div></header>
 
-<main>
-<section class="hero" id="home">
-<div class="container hero-content">
-<div class="eyebrow">Architecture • Interior • Construction</div>
-<h1>Spaces designed to feel like home.</h1>
-<p>Modern architecture, elegant interiors and practical construction solutions — designed around your lifestyle, budget and vision.</p>
-<div class="buttons"><a class="btn primary" href="#contact">Get a Free Consultation</a><a class="btn outline" href="#projects">View Projects</a></div>
-</div>
-</section>
+<section class="hero" id="home"><div class="wrap hero-copy">
+<div class="tag">Architecture • Interior • Construction</div>
+<h1>Modern spaces.<br>Thoughtfully designed.</h1>
+<p>From 2D planning to 3D visualization, interiors and construction — Sky View Construction brings your vision together in one place.</p>
+<div class="buttons"><a class="btn gold" href="#contact">Get a Free Consultation</a><a class="btn light" href="#portfolio">Explore Portfolio</a></div>
+</div></section>
 
-<section class="about" id="about">
-<div class="container about-grid">
-<div class="about-img"></div>
-<div class="about-copy">
-<div class="eyebrow">About Sky View</div>
-<h3>Designing better spaces, from plan to finish.</h3>
-<p>Sky View Construction provides architectural planning, 3D elevation, interior design and construction solutions for residential and commercial projects.</p>
-<p>We focus on clean modern design, functional planning, quality materials and detailed execution.</p>
-<a class="btn primary" href="#contact">Talk to Our Team</a>
-</div>
-</div>
-</section>
+<section class="intro" id="about"><div class="wrap intro-grid">
+<div class="intro-img"></div><div class="intro-text">
+<div class="tag">About Sky View</div><h3>Design that balances beauty, function and detail.</h3>
+<p>We provide architectural planning, 3D elevation, interior design and construction solutions for residential and commercial spaces.</p>
+<p>Our approach combines practical planning, contemporary aesthetics and careful material selection to create spaces that work beautifully in everyday life.</p>
+<a class="btn dark" href="#contact">Start Your Project</a>
+<div class="stats"><div class="stat"><strong>2D</strong><span>Planning</span></div><div class="stat"><strong>3D</strong><span>Visualization</span></div><div class="stat"><strong>360°</strong><span>Design Support</span></div><div class="stat"><strong>1</strong><span>Complete Team</span></div></div>
+</div></div></section>
 
-<section id="services">
-<div class="container">
-<div class="section-head"><div class="eyebrow">What We Do</div><h2>Complete design & construction services.</h2><p>One team for planning, visualization, interiors and execution.</p></div>
-<div class="services-grid">
-<div class="card"><div class="num">01</div><h3>Architectural Design</h3><p>2D floor plans, space planning, working concepts and practical layouts.</p></div>
-<div class="card"><div class="num">02</div><h3>3D Elevation & Rendering</h3><p>Photorealistic exterior views to visualize your building before construction.</p></div>
-<div class="card"><div class="num">03</div><h3>Interior Design</h3><p>Modern living rooms, bedrooms, kitchens, offices and complete interior concepts.</p></div>
-<div class="card"><div class="num">04</div><h3>Construction</h3><p>End-to-end construction support with attention to materials, detailing and finish.</p></div>
-<div class="card"><div class="num">05</div><h3>Vastu-based Planning</h3><p>Planning options incorporating Vastu requirements while keeping the layout functional.</p></div>
-<div class="card"><div class="num">06</div><h3>Renovation & Remodeling</h3><p>Upgrade existing spaces with new layouts, finishes, furniture and lighting.</p></div>
-</div>
-</div>
-</section>
+<section id="services"><div class="wrap"><div class="head"><div class="tag">Our Expertise</div><h2>Everything your project needs.</h2><p>Professional design and execution support from concept to completion.</p></div>
+<div class="grid3">
+<div class="service"><div class="n">01</div><h3>Architectural Planning</h3><p>2D floor plans, space planning, functional layouts and design development.</p></div>
+<div class="service"><div class="n">02</div><h3>3D Elevation & Rendering</h3><p>High-quality exterior visualization to see your building before construction.</p></div>
+<div class="service"><div class="n">03</div><h3>Interior Design</h3><p>Modern living rooms, bedrooms, kitchens, offices and complete interiors.</p></div>
+<div class="service"><div class="n">04</div><h3>Construction</h3><p>Construction coordination, material guidance and finishing support.</p></div>
+<div class="service"><div class="n">05</div><h3>Vastu-based Planning</h3><p>Layout options incorporating Vastu requirements with practical planning.</p></div>
+<div class="service"><div class="n">06</div><h3>Renovation</h3><p>Transform existing spaces with updated layouts, finishes, lighting and furniture.</p></div>
+</div></div></section>
 
-<section class="projects" id="projects">
-<div class="container">
-<div class="section-head"><div class="eyebrow">Portfolio</div><h2>Selected design inspiration.</h2><p>Replace these sample images with your actual projects to make the portfolio fully yours.</p></div>
-<div class="project-grid">
-<div class="project" style="background-image:url('https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=85')"><div><h3>Modern Residence</h3><p>Exterior Architecture</p></div></div>
-<div class="project" style="background-image:url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85')"><div><h3>Luxury Living</h3><p>Interior Design</p></div></div>
-<div class="project" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85')"><div><h3>Contemporary Home</h3><p>Architecture & 3D Visualization</p></div></div>
-</div>
-</div>
-</section>
+<section class="portfolio" id="portfolio"><div class="wrap"><div class="head"><div class="tag">Selected Projects</div><h2>Ideas brought to life.</h2><p>Sample imagery is currently shown here. Replace it with your own completed projects for a fully personalized portfolio.</p></div>
+<div class="gallery">
+<div class="work big" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=90')"><div><h3>Contemporary Residence</h3><p>Architecture & Exterior</p></div></div>
+<div class="work" style="background-image:url('https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=90')"><div><h3>Modern Villa</h3><p>3D Visualization</p></div></div>
+<div class="work" style="background-image:url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=90')"><div><h3>Luxury Living</h3><p>Interior Design</p></div></div>
+<div class="work" style="background-image:url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=90')"><div><h3>Premium Interior</h3><p>Residential Interior</p></div></div>
+<div class="work" style="background-image:url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=90')"><div><h3>Elegant Kitchen</h3><p>Interior Design</p></div></div>
+</div></div></section>
 
-<section id="process">
-<div class="container">
-<div class="section-head"><div class="eyebrow">Our Process</div><h2>From idea to finished space.</h2></div>
-<div class="process">
-<div class="step"><b>01 — DISCUSS</b><h3>Understand</h3><p>We understand your requirements, site and budget.</p></div>
-<div class="step"><b>02 — DESIGN</b><h3>Plan & Visualize</h3><p>2D plans and 3D concepts bring the idea to life.</p></div>
-<div class="step"><b>03 — FINALIZE</b><h3>Detail</h3><p>Materials, finishes, drawings and execution details are finalized.</p></div>
-<div class="step"><b>04 — EXECUTE</b><h3>Build</h3><p>Construction and interiors move forward with coordinated execution.</p></div>
-</div>
-</div>
-</section>
+<section id="process"><div class="wrap"><div class="head"><div class="tag">How We Work</div><h2>A clear process from idea to execution.</h2></div>
+<div class="process-grid">
+<div class="step"><b>01 — DISCOVER</b><h3>Understand</h3><p>Discuss site, requirements, lifestyle, style and budget.</p></div>
+<div class="step"><b>02 — DESIGN</b><h3>Plan & Visualize</h3><p>Create layouts, concepts and realistic 3D views.</p></div>
+<div class="step"><b>03 — DETAIL</b><h3>Finalize</h3><p>Finalize materials, finishes, drawings and details.</p></div>
+<div class="step"><b>04 — EXECUTE</b><h3>Build</h3><p>Coordinate execution and bring the design to life.</p></div>
+</div></div></section>
 
-<section class="contact" id="contact">
-<div class="container">
-<div class="section-head"><div class="eyebrow">Contact</div><h2>Let's discuss your project.</h2><p>Call, WhatsApp or visit our office for a consultation.</p></div>
+<section class="team"><div class="wrap"><div class="head"><div class="tag">Our Team</div><h2>People behind the projects.</h2></div>
+<div class="team-grid">
+<div class="person"><h3>Er Ashish Singh</h3><span>Architecture • Interior • Construction</span><p>Focused on practical planning, modern design, visualization and project coordination.</p></div>
+<div class="person"><h3>Er Adarsh Sahani</h3><span>Design & Project Support</span><p>Supporting design development, project coordination and client requirements.</p></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="wrap"><div class="head"><div class="tag">Contact</div><h2>Have a project in mind?</h2><p>Let's discuss your plot, floor plan, elevation, interior or construction requirement.</p></div>
 <div class="contact-grid">
-<div class="contact-box">
-<div class="contact-row"><small>Phone / WhatsApp</small><a href="tel:+919517636417">+91 95176 36417</a><br><a href="tel:+919918466710">+91 99184 66710</a></div>
-<div class="contact-row"><small>Email</small><a href="mailto:ashishsingh991692@gmail.com">ashishsingh991692@gmail.com</a></div>
-<div class="contact-row"><small>Office</small><span>GDA Commercial Complex, Front of LIC Office, Taramandal, Gorakhpur</span></div>
+<div class="contact-card">
+<div class="row"><small>Call / WhatsApp</small><a href="tel:+919517636417">+91 95176 36417</a><br><a href="tel:+919918466710">+91 99184 66710</a></div>
+<div class="row"><small>Email</small><a href="mailto:ashishsingh991692@gmail.com">ashishsingh991692@gmail.com</a></div>
+<div class="row"><small>Office</small><span>GDA Commercial Complex, Front of LIC Office, Taramandal, Gorakhpur</span></div>
 </div>
-<div class="contact-box">
-<h3 style="font-family:'Playfair Display',serif;font-size:28px;margin-bottom:12px">Er Ashish Singh</h3>
-<p style="color:#777;margin-bottom:20px">Architecture • Interior Design • Construction</p>
-<a class="btn primary" href="https://wa.me/919517636417?text=Hello%20Sky%20View%20Construction%2C%20I%20want%20to%20discuss%20a%20project." target="_blank">WhatsApp Now</a>
-</div>
-</div>
-</div>
-</section>
-</main>
+<div class="contact-card"><h3 style="font:600 29px 'Playfair Display',serif;margin-bottom:12px">Let's build something exceptional.</h3><p style="color:#777;margin-bottom:22px">Share your project requirement on WhatsApp and we'll discuss the next steps.</p><a class="btn gold" href="https://wa.me/919517636417?text=Hello%20Sky%20View%20Construction%2C%20I%20want%20to%20discuss%20my%20project." target="_blank">Chat on WhatsApp</a></div>
+</div></div></section>
 
-<footer><div class="container footer-flex"><span>© 2026 Sky View Construction. All rights reserved.</span><span>Architecture • Interior • Construction</span></div></footer>
-<a class="float" href="https://wa.me/919517636417?text=Hello%20Sky%20View%20Construction%2C%20I%20want%20a%20project%20consultation." target="_blank">WhatsApp</a>
-</body>
-</html>
+<footer><div class="wrap foot"><span>© 2026 Sky View Construction. All rights reserved.</span><span>Gorakhpur • Architecture • Interior • Construction</span></div></footer>
+<a class="wa" href="https://wa.me/919517636417?text=Hello%20Sky%20View%20Construction%2C%20I%20want%20a%20project%20consultation." target="_blank">WhatsApp</a>
+</body></html>
